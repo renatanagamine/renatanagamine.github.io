@@ -9,7 +9,7 @@
       color: black;
       background-color: white;
       max-width: 800px;
-      margin: 40px auto;
+      margin: 100px auto 40px;
       line-height: 1.6;
     }
     h1, h2 {
@@ -19,6 +19,24 @@
       color: black;
       text-decoration: underline;
     }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 999;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     details {
       margin-bottom: 1em;
     }
@@ -26,9 +44,20 @@
       font-weight: bold;
       cursor: pointer;
     }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
+
+  <nav>
+    <a href="index.html">Página inicial</a>
+    <a href="pesquisas.html">Pesquisas</a>
+    <a href="cursos.html">Cursos</a>
+    <a href="cv.html">CV</a>
+  </nav>
 
   <h1>Cursos</h1>
 
@@ -61,7 +90,9 @@
     </ul>
   </details>
 
-  <p><a href="index.html">← Voltar à página inicial</a></p>
+  <footer>
+    <p><a href="index.html">← Voltar à página inicial</a></p>
+  </footer>
 
 </body>
 </html>
