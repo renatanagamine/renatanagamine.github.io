@@ -51,7 +51,7 @@ nav .dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 200px;
+  min-width: 220px;
   text-align: left;
   border: 1px solid #ccc;
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
