@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+  max-width: 800px;
+  margin: 100px auto 40px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+details {
+  margin-bottom: 1em;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
