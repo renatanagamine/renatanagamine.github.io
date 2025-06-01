@@ -1,4 +1,4 @@
-body {
+body { 
   font-family: Arial, sans-serif;
   color: black;
   background-color: white;
@@ -36,7 +36,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 1.1em;
+  font-size: 1.1em; /* Tamanho ideal para desktop */
   padding: 8px 10px;
 }
 
@@ -98,7 +98,7 @@ summary {
 /* Responsividade para celular */
 @media (max-width: 600px) {
   nav a {
-    font-size: 1.2em;
+    font-size: 1.25em; /* ligeiramente maior para facilitar o toque */
     margin: 0 10px;
   }
 
