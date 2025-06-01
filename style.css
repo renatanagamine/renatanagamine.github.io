@@ -99,7 +99,7 @@ summary {
 /* Responsividade para celular */
 @media (max-width: 600px) {
   body {
-    font-size: 0.85em; /* Corpo de texto reduzido só no mobile */
+    font-size: 0.7em; /* Corpo de texto reduzido só no mobile */
   }
 
   nav a {
