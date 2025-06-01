@@ -98,12 +98,12 @@ summary {
 /* Responsividade para celular */
 @media (max-width: 600px) {
   nav a {
-    font-size: 2.8em; /* ligeiramente maior para facilitar o toque */
+    font-size: 3em; /* ligeiramente maior para facilitar o toque */
     margin: 0 10px;
   }
 
   nav .dropdown-content {
     min-width: 180px;
-    font-size: 1em;
+    font-size: 2.8em;
   }
 }
