@@ -5,6 +5,7 @@ body {
   max-width: 800px;
   margin: 100px auto 40px;
   line-height: 1.6;
+  font-size: 1em; /* Tamanho padrão para desktop */
 }
 
 h1, h2, h3 {
@@ -97,13 +98,17 @@ summary {
 
 /* Responsividade para celular */
 @media (max-width: 600px) {
+  body {
+    font-size: 0.95em; /* Reduz um pouco o corpo do texto */
+  }
+
   nav a {
-    font-size: 3em; /* ligeiramente maior para facilitar o toque */
+    font-size: 1.2em; /* Maior para facilitar o toque */
     margin: 0 10px;
   }
 
   nav .dropdown-content {
     min-width: 180px;
-    font-size: 2.8em;
+    font-size: 1em;
   }
 }
