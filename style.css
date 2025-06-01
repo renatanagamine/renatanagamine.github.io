@@ -36,6 +36,8 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: black;
+  font-size: 1.1em;
+  padding: 8px 10px;
 }
 
 nav a:hover {
@@ -91,4 +93,17 @@ details {
 summary {
   font-weight: bold;
   cursor: pointer;
+}
+
+/* Responsividade para celular */
+@media (max-width: 600px) {
+  nav a {
+    font-size: 1.2em;
+    margin: 0 10px;
+  }
+
+  nav .dropdown-content {
+    min-width: 180px;
+    font-size: 1em;
+  }
 }
