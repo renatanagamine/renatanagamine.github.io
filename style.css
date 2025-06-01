@@ -1,4 +1,11 @@
-body { 
+/* Container para alinhar o menu ao corpo */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body {  
   font-family: Arial, sans-serif;
   color: black;
   background-color: white;
@@ -28,8 +35,14 @@ nav {
   background-color: white;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
-  text-align: center;
   z-index: 1000;
+}
+
+nav .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 nav a {
@@ -37,7 +50,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 1em; /* Tamanho ideal para desktop */
+  font-size: 1em;
   padding: 8px 10px;
 }
 
@@ -46,8 +59,8 @@ nav a:hover {
 }
 
 nav .dropdown {
-  display: inline-block;
   position: relative;
+  display: inline-block;
 }
 
 nav .dropdown-content {
@@ -102,9 +115,9 @@ summary {
     font-size: 0.4em; /* Corpo de texto reduzido só no mobile */
   }
 
-  nav {
-    padding-left: 15px; /* Ajuste fino no alinhamento lateral do menu */
-    text-align: left;   /* Menu alinhado mais à esquerda para compensar centralização do texto */
+  nav .container {
+    justify-content: flex-start; /* Menu mais à esquerda em telas pequenas */
+    padding-left: 15px;
   }
 
   nav a {
