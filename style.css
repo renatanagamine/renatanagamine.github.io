@@ -28,8 +28,9 @@ nav {
   background-color: white;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
-  text-align: center;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
 }
 
 nav a {
