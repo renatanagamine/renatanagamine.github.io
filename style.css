@@ -36,7 +36,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 1.1em; /* Tamanho ideal para desktop */
+  font-size: 1em; /* Tamanho ideal para desktop */
   padding: 8px 10px;
 }
 
