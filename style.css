@@ -98,7 +98,7 @@ summary {
 /* Responsividade para celular */
 @media (max-width: 600px) {
   nav a {
-    font-size: 1.6em; /* ligeiramente maior para facilitar o toque */
+    font-size: 1.8em; /* ligeiramente maior para facilitar o toque */
     margin: 0 10px;
   }
 
