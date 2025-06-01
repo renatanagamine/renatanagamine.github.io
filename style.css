@@ -5,7 +5,7 @@ body {
   max-width: 800px;
   margin: 100px auto 40px;
   line-height: 1.6;
-  font-size: 1em;
+  font-size: 1em; /* Tamanho padrão para desktop */
 }
 
 h1, h2, h3 {
@@ -24,13 +24,11 @@ ul {
 nav {
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-400px); /* Alinha com o conteúdo de 800px centralizado */
-  width: 800px;
+  width: 100%;
   background-color: white;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
-  text-align: left;
+  text-align: center;
   z-index: 1000;
 }
 
@@ -101,15 +99,12 @@ summary {
 /* Responsividade para celular */
 @media (max-width: 600px) {
   body {
-    font-size: 0.4em;
+    font-size: 0.4em; /* Corpo de texto reduzido só no mobile */
   }
 
   nav {
-    left: 0;
-    transform: none;
-    width: 100%;
-    text-align: center;
-    padding-left: 0;
+    padding-left: 0;         /* Mantém centralizado */
+    text-align: center;      /* Mantém centralizado */
   }
 
   nav a {
