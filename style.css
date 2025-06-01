@@ -99,11 +99,11 @@ summary {
 /* Responsividade para celular */
 @media (max-width: 600px) {
   body {
-    font-size: 0.6em; /* Corpo de texto reduzido só no mobile */
+    font-size: 0.5em; /* Corpo de texto reduzido só no mobile */
   }
 
   nav a {
-    font-size: 1.2em;
+    font-size: 3em;
     margin: 0 10px;
   }
 
