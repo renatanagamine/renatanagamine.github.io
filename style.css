@@ -28,9 +28,8 @@ nav {
   background-color: white;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
+  text-align: center;
   z-index: 1000;
-  display: flex;
-  justify-content: center;
 }
 
 nav a {
@@ -101,6 +100,11 @@ summary {
 @media (max-width: 600px) {
   body {
     font-size: 0.4em; /* Corpo de texto reduzido só no mobile */
+  }
+
+  nav {
+    padding-left: 15px; /* Ajuste fino no alinhamento lateral do menu */
+    text-align: left;   /* Menu alinhado mais à esquerda para compensar centralização do texto */
   }
 
   nav a {
