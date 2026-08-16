@@ -98,17 +98,19 @@ summary {
 
 /* Responsividade para celular */
 @media (max-width: 600px) {
+
   body {
-    font-size: 0.3em; /* Corpo de texto reduzido só no mobile */
+    font-size: 1.1em;
   }
 
   nav {
-    padding-left: 0;         /* Mantém centralizado */
-    text-align: center;      /* Mantém centralizado */
+    padding: 14px 0;
+    padding-left: 0;
+    text-align: center;
   }
 
   nav a {
-    font-size: 10em;
+    font-size: 1.15em;
     margin: 0 10px;
   }
 
@@ -116,4 +118,7 @@ summary {
     min-width: 180px;
     font-size: 1em;
   }
+
+}
+
 }
